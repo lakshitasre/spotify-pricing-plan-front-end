@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Premium</title>
+    <link rel="icon" type="image/x-icon" href="spotify-icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <h1>SPOTIFY PREMIUM PLAN</h1>
+            <p>Choose any plan that suits you best</p>
+            <select id="currency-select">
+                <option value="₹">INR</option>
+                <option value="$">USD</option>
+                <option value="€">EUR</option>
+            </select>
+    </header>
+    <main>
+        <section class="pricing-plans">
+            <div class="plan basic">
+                <h2>Mini</h2>
+                <p class="price" data-monthly="₹ 210/month" data-yearly="₹ 1999/year">₹ 210/month</p>
+                <button class="toggle-pricing" data-plan="basic" data-type="Monthly">Monthly</button>
+                <button class="toggle-pricing" data-plan="basic" data-type="Yearly">Yearly</button>
+                <ul>
+                    <li class="feature" data-basic-monthly="Ad-Free music listening" data-basic-yearly="Ad-Free music listening">Ad-Free music listening</li>
+                    <li class="feature" data-basic-monthly="Download to listen songs offline" data-basic-yearly="Download to listen songs offline">Download to listen songs offline</li>
+                    <li class="feature" data-basic-monthly="Play songs in your own order" data-basic-yearly="Play songs in your own order">Play songs in your own order</li>
+                </ul>
+                <button class="choose-plan">Choose Plan</button>
+            </div>
+            <div class="plan standard">
+                <h2>Individual</h2>
+                <p class="price" data-monthly="₹ 299/month" data-yearly="₹ 2999/year">₹ 299/month</p>
+                <button class="toggle-pricing" data-plan="standard" data-type="Monthly">Monthly</button>
+                <button class="toggle-pricing" data-plan="standard" data-type="Yearly">Yearly</button>
+                <ul>
+                    <li class="feature" data-standard-monthly="Ad-Free music listening" data-standard-yearly="Ad-Free music listening">Ad-Free music listening</li>
+                    <li class="feature" data-standard-monthly="Download to listen songs offline" data-standard-yearly="Download to listen songs offline">Download to listen songs offline</li>
+                    <li class="feature" data-standard-monthly="Play songs in your own order" data-standard-yearly="Play songs in your own order">Play songs in your own order</li>
+                    <li class="feature" data-standard-monthly="High quality audio" data-standard-yearly="High quality audio">High quality audio</li>
+                </ul>
+                <button class="choose-plan">Choose Plan</button>
+            </div>
+            <div class="plan premium">
+                <h2>Duo</h2>
+                <p class="price" data-monthly="₹ 399/month" data-yearly="₹ 3999/year">₹ 399/month</p>
+                <button class="toggle-pricing" data-plan="premium" data-type="Monthly">Monthly</button>
+                <button class="toggle-pricing" data-plan="premium" data-type="Yearly">Yearly</button>
+                <ul>
+                    <li class="feature" data-premium-monthly="Ad-Free music listening" data-premium-yearly="Ad-Free music listening">Ad-Free music listening</li>
+                    <li class="feature" data-premium-monthly="Download to listen songs offline" data-premium-yearly="Download to listen songs offline">Download to listen songs offline</li>
+                    <li class="feature" data-premium-monthly="Play songs in your own order" data-premium-yearly="Play songs in your own order">Play songs in your own order</li>
+                    <li class="feature" data-premium-monthly="High quality audio" data-premium-yearly="High quality audio">High quality audio</li>
+                    <li class="feature" data-premium-monthly="Listen with friends in real time" data-premium-yearly="Listen with friends in real time">Listen with friends in real time</li>
+                    <li class="feature" data-premium-monthly="Organising listening queue" data-premium-yearly="Organising listening queue">Organising listening queue</li>
+                </ul>
+                <button class="choose-plan">Choose Plan</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Spotify. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
