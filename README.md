@@ -7,4 +7,4 @@ It allows the users to explore different pricing options dynamically.
 It also provides the flexibility to customize currency symbols and measurement units based on user preferences.
 It ensures that the pricing page is responsive, offering a seamless experience across various devices.
 
-save all the files in the same folder and then run the file.
+
